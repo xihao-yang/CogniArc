@@ -47,6 +47,53 @@ The goal of CogniArc is to serve as a **long-term research notebook for AI syste
 - next-intl (i18n)
 - OpenAI API
 
+# 中文
+
+## 项目简介
+
+**CogniArc** 是一个 **AI 原生的个人研究博客与知识空间**。
+
+它融合了：
+
+- 技术博客  
+- 研究记录  
+- 学习笔记  
+- AI 导览助手  
+
+访问者不仅可以通过菜单浏览，还可以直接询问 AI：
+
+> 我应该从哪里开始阅读？
+
+AI 会根据网站内容给出推荐。
+
+CogniArc 的目标是成为一个 **长期记录 AI、软件工程与开发工具研究过程的个人研究日志**。
+
+---
+
+## 主要功能
+
+- 基于 **Next.js App Router** 构建  
+- 使用 **MDX** 作为博客系统  
+- **中英双语支持**  
+- **AI 导览助手**  
+- **Research / Notes** 结构化知识页面  
+- 简洁的研究型网站布局  
+
+---
+
+## 技术栈
+
+- Next.js  
+- TypeScript  
+- TailwindCSS  
+- MDX  
+- next-intl（国际化）  
+- OpenAI API  
+
+---
+
+## 项目结构
+
 ---
 
 ## Versions

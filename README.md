@@ -49,4 +49,17 @@ The goal of CogniArc is to serve as a **long-term research notebook for AI syste
 
 ---
 
-## Project Structure
+## Versions
+
+### v0.1 – Initial Release
+
+First working version of the website.
+
+Features:
+
+- Bilingual routing (`/en` `/zh`)
+- Blog system based on MDX
+- Research and notes sections
+- AI guide that answers questions about the website
+- Next.js deployment ready
+

@@ -1,0 +1,36 @@
+---
+title: "Observability for Agent Tooling"
+summary: "Instrumentation patterns that make agent failures debuggable in production-like workflows."
+description: "Instrumentation patterns that make agent failures debuggable in production-like workflows."
+date: "2026-02-26"
+tags:
+  - observability
+  - tooling
+  - reliability
+---
+
+Agent systems fail in ways that are hard to reproduce without strong traces.
+
+## Minimum telemetry
+
+At a minimum, keep traces for:
+
+- planner output
+- tool input and output
+- error classifications
+
+## Useful dashboard cuts
+
+Group failures by tool, error type, and latency percentile.
+
+### Latency spike analysis
+
+Tooling regressions often appear as tail latency increases before hard failures.
+
+### Recovery pattern analysis
+
+Track whether retries fix issues or simply increase cost.
+
+## Recommendation
+
+Treat observability as a first-class feature of agent architecture, not a post-release task.

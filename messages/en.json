@@ -1,0 +1,73 @@
+{
+  "site": {
+    "title": "CogniArc Research Journal",
+    "description": "Personal academic and technical writing on AI agents, software engineering, and developer tooling."
+  },
+  "nav": {
+    "home": "Home",
+    "blog": "Blog",
+    "research": "Research",
+    "notes": "Notes",
+    "assistant": "Assistant",
+    "about": "About"
+  },
+  "lang": {
+    "en": "EN",
+    "zh": "ZH"
+  },
+  "home": {
+    "badge": "Personal Research Blog",
+    "title": "CogniArc",
+    "subtitle": "Research notes on AI agents and engineering systems",
+    "description": "A bilingual journal for research ideas, implementation patterns, and practical observations from building AI-native software.",
+    "interestsTitle": "Research interests",
+    "interest1": "AI agents",
+    "interest2": "Software engineering",
+    "interest3": "Developer tooling",
+    "recentTitle": "Recent blog posts",
+    "researchTitle": "Featured research projects",
+    "assistantTitle": "Need a quick guide?",
+    "assistantDescription": "Use the built-in assistant to find relevant sections and reading paths.",
+    "viewAllBlog": "View all posts",
+    "viewAllResearch": "View all projects",
+    "openAssistant": "Open assistant"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Long-form essays, technical deep dives, and research reflections.",
+    "empty": "No posts yet. Add MDX files under content/en/blog and content/zh/blog.",
+    "readMore": "Read post",
+    "publishedOn": "Published",
+    "readingTime": "min read",
+    "toc": "Table of contents",
+    "backToBlog": "Back to blog"
+  },
+  "research": {
+    "title": "Research",
+    "description": "A project portfolio of active investigations and implementation experiments.",
+    "viewProject": "Open project"
+  },
+  "notes": {
+    "title": "Notes",
+    "description": "Short technical notes grouped by domain for fast reference."
+  },
+  "assistant": {
+    "title": "Assistant",
+    "description": "The floating assistant helps visitors understand this website and discover content quickly."
+  },
+  "about": {
+    "title": "About",
+    "description": "CogniArc documents ongoing work at the intersection of research and practical software engineering.",
+    "body": "The objective is simple: convert ideas into reproducible experiments, then publish clear notes that are useful to others."
+  },
+  "chat": {
+    "open": "Chat",
+    "close": "Close",
+    "title": "AI Guide",
+    "subtitle": "Ask about sections, topics, or where to start.",
+    "welcome": "Hi. I can help you navigate this blog and suggest where to read first.",
+    "placeholder": "Ask a question...",
+    "send": "Send",
+    "loading": "Thinking"
+  }
+}

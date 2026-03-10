@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: 247 249 252;
+  --fg: 15 23 42;
+  --muted: 71 85 105;
+  --border: 203 213 225;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  color: rgb(var(--fg));
+  background:
+    radial-gradient(circle at 15% 20%, rgba(20, 184, 166, 0.08), transparent 35%),
+    radial-gradient(circle at 80% 10%, rgba(15, 23, 42, 0.06), transparent 40%),
+    linear-gradient(180deg, rgb(250 252 255), rgb(var(--bg)));
+  font-family: "IBM Plex Sans", "Segoe UI", "Noto Sans", "PingFang SC", "Microsoft YaHei", ui-sans-serif, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+.font-serif {
+  font-family: "Source Serif 4", "Noto Serif SC", "Songti SC", Georgia, "Times New Roman", serif;
+}
+
+.surface {
+  @apply rounded-2xl border shadow-sm;
+  background-color: rgb(255 255 255 / 0.92);
+  border-color: rgb(var(--border));
+}
+
+.text-muted {
+  color: rgb(var(--muted));
+}
+
+.page-enter {
+  animation: page-enter 320ms ease-out;
+}
+
+.reveal-stagger > * {
+  opacity: 0;
+  transform: translateY(8px);
+  animation: reveal-item 420ms ease-out forwards;
+}
+
+.reveal-stagger > *:nth-child(1) {
+  animation-delay: 40ms;
+}
+
+.reveal-stagger > *:nth-child(2) {
+  animation-delay: 80ms;
+}
+
+.reveal-stagger > *:nth-child(3) {
+  animation-delay: 120ms;
+}
+
+.reveal-stagger > *:nth-child(4) {
+  animation-delay: 160ms;
+}
+
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes reveal-item {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

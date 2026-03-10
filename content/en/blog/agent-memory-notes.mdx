@@ -1,0 +1,36 @@
+---
+title: "Notes on Agent Memory Retrieval"
+summary: "A practical comparison between context windows, vector search, and hybrid memory pipelines."
+description: "A practical comparison between context windows, vector search, and hybrid memory pipelines."
+date: "2026-03-04"
+tags:
+  - memory
+  - rag
+  - evaluation
+---
+
+Memory strategy determines how stable an agent feels over long tasks.
+
+## Retrieval approaches
+
+The three working options in my experiments are:
+
+- full-context replay
+- semantic retrieval
+- hybrid retrieval + summaries
+
+## Evaluation setup
+
+I evaluate memory quality using task completion accuracy and correction count.
+
+### Failure signal: context drift
+
+The agent starts to answer from stale assumptions when retrieval quality drops.
+
+### Failure signal: tool mismatch
+
+The selected tool no longer matches the current user objective.
+
+## Current takeaway
+
+Hybrid retrieval is most consistent when prompts enforce structured handoffs between steps.

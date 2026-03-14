@@ -5,7 +5,7 @@ https://cogniarcai.com
 
 [English](#english) | [中文](#中文)
 
----
+
 
 # English
 
@@ -28,7 +28,7 @@ The assistant can suggest relevant pages based on the site's content.
 
 CogniArc aims to become a **long-term research notebook for AI systems, software engineering, and developer tools.**
 
----
+
 
 ## Live Demo
 
@@ -36,7 +36,7 @@ Open the website here:
 
 https://cogniarcai.com/en
 
----
+
 
 ## Features
 
@@ -47,7 +47,7 @@ https://cogniarcai.com/en
 * Structured sections for research and notes
 * Clean academic-style layout
 
----
+
 
 ## Tech Stack
 
@@ -60,7 +60,7 @@ https://cogniarcai.com/en
 * Nginx
 * PM2
 
----
+
 
 ## Versions
 
@@ -76,7 +76,7 @@ Features:
 * AI guide that answers questions about the website
 * Next.js deployment ready
 
----
+
 
 ### v0.2 – Public Deployment
 
@@ -94,7 +94,7 @@ Visit:
 
 https://cogniarcai.com/en
 
----
+
 
 # 中文
 
@@ -117,7 +117,7 @@ AI 会根据网站内容给出推荐。
 
 CogniArc 的目标是成为一个 **长期记录 AI、软件工程与开发工具研究过程的个人研究日志**。
 
----
+
 
 ## 在线访问
 
@@ -125,7 +125,7 @@ CogniArc 的目标是成为一个 **长期记录 AI、软件工程与开发工�
 
 https://cogniarcai.com/zh
 
----
+
 
 ## 主要功能
 
@@ -136,7 +136,7 @@ https://cogniarcai.com/zh
 * **Research / Notes** 结构化知识页面
 * 简洁的研究型网站布局
 
----
+
 
 ## 技术栈
 
@@ -149,7 +149,7 @@ https://cogniarcai.com/zh
 * Nginx
 * PM2
 
----
+
 
 ## 版本
 
@@ -165,7 +165,7 @@ https://cogniarcai.com/zh
 * AI 网站助手
 * Next.js 部署结构
 
----
+
 
 ### v0.2 – 公网部署版本
 

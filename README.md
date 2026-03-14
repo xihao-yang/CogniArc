@@ -63,6 +63,19 @@ Features:
 - AI guide that answers questions about the website
 - Next.js deployment ready
 
+### v0.2 – Public Deployment
+
+CogniArc is now publicly accessible.
+
+Updates:
+
+- Domain connected: https://cogniarcai.com
+- HTTPS enabled with Let's Encrypt
+- Nginx reverse proxy configured
+- PM2 process manager for production stability
+- First production deployment online
+
+Visit: https://cogniarcai.com/en
 
 # 中文
 
@@ -112,4 +125,17 @@ v0.1 – 初始版本
 - AI 网站助手
 - Next.js 部署结构
 
+v0.2 – 公网部署版本
+
+CogniArc 已完成公网部署并可以通过域名访问。
+
+更新内容：
+
+- 已绑定域名：https://cogniarcai.com
+- 启用 HTTPS（Let's Encrypt）
+- 配置 Nginx 反向代理
+- 使用 PM2 管理 Next.js 进程
+- 网站已正式上线
+
+访问地址：https://cogniarcai.com/en
 

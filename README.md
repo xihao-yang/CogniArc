@@ -94,6 +94,18 @@ Visit:
 
 https://cogniarcai.com/en
 
+### v0.3 – Theme & About Update
+
+Adds a light/dark theme system and introduces a personal profile page.
+
+Features:
+
+* Light / Dark mode toggle (with persistence)
+* Global color variables (no hardcoded colors)
+* Consistent UI across all pages
+* Fixed dark mode issues
+* Refactored background (removed color blocks)
+* About page with profile and links (GitHub, LinkedIn, Email)
 
 
 # 中文
@@ -182,5 +194,20 @@ CogniArc 已完成公网部署并可以通过域名访问。
 访问地址：
 
 https://cogniarcai.com/zh
+
+
+### v0.3 – 主题与 About 更新
+
+引入深浅色主题系统，并新增个人信息页面。
+
+包含：
+
+* 深色 / 浅色模式切换（支持记忆）
+* 全局颜色变量（移除硬编码颜色）
+* 全站 UI 风格统一
+* 修复深色模式问题
+* 重构背景（解决色块问题）
+* About 页面（自我介绍 + GitHub / LinkedIn / 邮箱）
+
 
 

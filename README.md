@@ -209,5 +209,7 @@ https://cogniarcai.com/zh
 * 重构背景（解决色块问题）
 * About 页面（自我介绍 + GitHub / LinkedIn / 邮箱）
 
+### v0.4 - 加入博客（敏捷开发与三层架构）
+
 
 
